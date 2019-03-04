@@ -107,7 +107,7 @@ class SVMNet(object):
     def classify(self, data):
         """
         Classifies the data.
-        :param data: matrix if examples unlabeled.
+        :param data: matrix of examples unlabeled.
         :return: list of predicted labels.
         """
         if data.size != 0:
